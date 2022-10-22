@@ -1,0 +1,74 @@
+.body2 {
+    display: flex;
+}
+
+
+.banner2 {
+    width: 90%;
+    height: 110%;
+    background-image: url("../img/Apple-of-Eden-HD-Wallpaper.jpg"); 
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    margin: auto;
+}
+
+nav h1 {
+    float: left;
+    width: 16vw;
+    background-color: rgba(245,245,245,0.5);
+    margin-top: 100px;
+    color: firebrick;
+    font-size: 30px;
+    text-align: left;
+    box-shadow: 5px 5px 7px black;
+    padding-right: -150;
+
+}
+.logo_2 {
+    margin: 0 auto;
+    padding-right: 250px;
+    padding-top: 50px;
+}
+
+.cont_H_AC {
+    float: none;
+    width: 40vw;
+    height: 300px;
+    display: block;
+    margin-left: 2vw;
+    text-align: justify;
+    position: relative;
+    transform-style: preserve-3d;
+    -webkit-webkit-perspective: 700s;
+    transition: 2s;
+}
+
+.cont_H_AC:hover {
+    transform: rotateY(180deg);
+}
+
+.cont_H_OT  {
+  
+}
+
+.lado_a {
+    height: 100%;
+    width: 100%;
+    color: antiquewhite;
+    background-color: rgba(5,5,5,0.7);
+    position: absolute;
+    backface-visibility: hidden;
+}
+
+
+.lado_b {
+    height: 100%;
+    width: 100%;
+    color: antiquewhite;
+    background-color: rgba(5,5,5,0.7);
+    transform: rotateY(180deg);
+    backface-visibility: hidden;
+    font-size: 20px;
+}

@@ -1,0 +1,131 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    box-sizing: border-box;
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    background-color: black;
+}
+
+.banner {
+    width: 90%;
+    height: 100%;
+    background-image: url("../img/assassins-creed-movie1.jpg"); 
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    margin: auto;
+}
+
+.banner header img {
+    
+    max-width: 100%;
+    padding: 20px;
+    height: 100%;
+    box-sizing: border-box;
+    box-shadow: -5px -5px 7px black;
+    margin-top: 20px;    
+}
+.banner h1, h2, h3, h4, legend {
+    background-color: rgba(5,5,5,0.8);
+    color: antiquewhite;
+    text-align: center;
+    padding: 5px;
+    box-shadow: 5px 5px 7px black;
+    margin-top: 100;
+   
+}
+
+.contenido section, ul, li {
+    
+    width: 30vw;
+    background-color: rgba(245,245,245,0.5);
+    padding: 10px;
+    text-decoration: none;
+    text-align: center;
+    margin-left: 80px;
+    box-shadow: -5px -5px 7px black;
+    display: flex; 
+}
+
+.formulario {
+    width: 30vw;
+    background-color: rgba(245,245,245,0.5);
+    box-shadow: 5px 5px 7px black;
+    margin:0 auto;
+    float: right;
+    margin-top: -235px;
+    margin-right: 150px;
+}
+
+input[type=text]:focus {
+    border: 3px solid #555;
+    border-style: hidden;
+}
+
+input[type=text] {
+    border-style: hidden;
+    text-align: center;
+}
+
+.button {
+    background-color: rgba(245,245,245,0.5);
+    padding: 10px;
+    border: none;
+    color: firebrick;
+    padding: 16px 32px;
+    margin: 4px;
+    cursor: pointer;
+    -webkit-transition-duration: 0.4s; 
+    transition-duration: 0.4s;
+    font-size: 16px;
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    font-size: 20px;
+}
+
+.button:hover {
+    background-color: #111111;
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
+}
+
+.fecha {
+    float: none;
+    display: block;
+}
+
+.button2 {
+    background-color: rgba(5,5,5,0.5);
+    padding: 10px;
+    border: none;
+    color: firebrick;
+    padding: 16px 32px;
+    margin: 4px;
+    cursor: pointer;
+    -webkit-transition-duration: 0.4s; 
+    transition-duration: 0.4s;
+    font-size: 16px;
+    font-family: 'Yanone Kaffeesatz', sans-serif; 
+    font-size: 20px;
+
+}
+
+.button2:hover {
+    background-color: #111111;
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
+}
+footer {
+    position: fixed;
+    background-color: rgba(5,5,5,0.8);
+    width: 80%;
+    padding: 10px;
+    margin-left: 190px;
+    color: azure;
+    margin-top: 90px;
+    display: block;
+}
+small {
+    font-size: 20px;
+    margin-right: 200px;
+}
+
